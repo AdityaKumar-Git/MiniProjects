@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Generator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="container">
+        <h1 class="headTitle">Para Generator</h1>
+        <div class="subTitle">Generate Your Own Random Text</div>
+        <div class="para spaceText">
+            <i>Example: </i>
+            <br>&nbsp;
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quod maiores voluptates, rerum consequuntur saepe cum sint iusto facere quidem rem magni consequatur asperiores vitae doloribus temporibus velit, nihil soluta id dolore cupiditate quos recusandae, veniam voluptate! Enim hic deserunt perferendis iusto aliquam aspernatur maxime.
+        </div>
+        <div class="inp">
+        <div class="inpBox">
+            <p>Enter Number of Words Desired in Paragraph:</p>
+            <input type="number" id="num" placeholder="Enter Number (upto 10000 words)">
+            <button id="gen" onclick="getData()">Generate</button>
+        </div>
+        </div>
+        <div id="genPara">
+            <p id="getPara" class="para spaceText"></p>
+        </div>
+    </div>
+</body>
+<script src = "script.js"></script>
+</html>
