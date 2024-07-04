@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+    <div id="head">
+        <div id="logo">ToDo</div>
+        <div id="nav">
+            <div class="navBut"><a href="#addtask">Add Task</a></div>
+            <div class="navBut"><a href="#incompleted">Incompleted Tasks</a></div>
+            <div class="navBut"><a href="#completed">Completed Tasks</a></div>
+        </div>
+    </div>
+    <div id="main">
+        <h1>Manage all your Tasks easily with To-do</h1>
+        <div id="mobile">
+            <div class="navBut"><a href="#addtask">Add Task</a></div>
+            <div class="navBut"><a href="#incompleted">Incompleted Tasks</a></div>
+            <div class="navBut"><a href="#completed">Completed Tasks</a></div>
+        </div>
+        <h2>Add Task</h2>
+        <div id="addTask">
+            <form>
+            <input type="text" class = "txtInp" id="taskTitle" placeholder="Task Title" required>
+            <input type="text" class = "txtInp" id="taskDesc" placeholder="Task Description">
+            <button id="addTaskButton" type="submit">Add</button>
+            </form>
+        </div>
+        <h2>Incompleted Tasks</h2>
+        <div id="incompleted" class="sec"></div>
+        <h2>Completed Tasks</h2>
+        <div id="completed" class="sec"></div>
+    </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
