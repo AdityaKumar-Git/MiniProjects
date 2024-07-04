@@ -7,3 +7,6 @@ A simple html,css website which uses js to output a predefined color associated 
 
 2) Pragraph Generator:
 A simple paragraph generator that uses js to generate random paragraphs based on user input.
+
+3) ToDo List:
+A simple to-do list that uses js to add tasks and show incompleted & completed tasks.
