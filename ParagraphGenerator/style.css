@@ -60,7 +60,16 @@ body{
     align-items: center;
 }
 
-.inp .inpBox{
+.inpBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2ch;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* align-items: center; */
+}
+
+.inpBox form{
     display: flex;
     flex-direction: column;
     justify-content: center;

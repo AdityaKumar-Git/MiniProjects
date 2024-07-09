@@ -18,7 +18,8 @@ const generatePara = (n)=>{
     return txt;
 }
 
-const getData = ()=>{
+const getData = (e)=>{
+    e.preventDefault();
     let input = document.getElementById("num");
     let place = document.getElementById("genPara");
     let remov = document.getElementById("getPara");
@@ -46,3 +47,6 @@ const getData = ()=>{
     place.appendChild(para);
     place.style.display = "block";
 }
+
+let gen = document.getElementById('gen');
+gen.addEventListener('click',getData);
