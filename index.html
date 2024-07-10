@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <div id = "logo">Mini Projects</div>
+        <div class="header" fixed>
+            <h1 id = "logo">Mini Projects</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -21,6 +21,7 @@
             </nav>
         </div>
         <div class="content">
+            <div class="disc">
             <h1>Mini Projects</h1>
             <p>Mini Projects is a website that contains a list of mini projects that I have done
                 in my free time. I have done these projects to improve my skills in HTML, CSS,
@@ -30,26 +31,31 @@
                 as a way to showcase my skills and creativity. I hope you enjoy browsing through
                 them!
             </p>
+            </div>
+            <h1 id = "projectTitle">Projects</h1>
             <div id="projectArea">
+                <a href="./ParagraphGenerator/index.html">
                 <div class="project card">
-                    <a href="./ParagraphGenerator/index.html"><h2>Paragraph Generator</h2></a>
+                    <h2>Paragraph Generator</h2>
                     <p>Paragraph Generator is a website that generates a random paragraph based on the user's input
                         of number of words. The website uses JavaScript to generate the paragraph and display it on the screen.
                     </p>
                 </div>
-                <div class="project card">
-                    <a href="./LuckyColor/index.html"><h2>Lucky Colour</h2></a>
+                </a>
+                <a href="./LuckyColor/index.html"><div class="project card"><h2>Lucky Colour</h2>
                     <p>Lucky Colour is a website that generates a random colour based on the user's zodiac sign
                         The website uses JavaScript to generate the colour and display it on the screen.
                     </p>
                 </div>
-                <div class="project card">
-                    <a href="./ToDo/"><h2>To Do</h2></a>
+                </a>
+                <a href="./ToDo/"><div class="project card">
+                    <h2>To Do</h2>
                     <p>To Do is a website that allows the user to create a to do list. The
                         website uses JavaScript to store the user's input and display it on the screen diffrentiating in completed
                         and uncompleted tasks.
                     </p>
                 </div>
+                </a>
             </div>
         </div>
         <div class="footer">

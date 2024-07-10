@@ -1,0 +1,113 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+#container{
+    box-sizing: border-box;
+}
+
+#logo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    color: rgb(32, 154, 132);
+    margin-left: 2rem;
+}
+
+.header{
+    height: 6%;
+    /* width: 90vw; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+}
+
+.header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+
+.header nav ul li{
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+.content{
+    margin: 0rem 5rem;
+    min-height: 90%;
+}
+
+.disc{
+    margin-top: 1rem;
+    background-color: rgb(222, 255, 244);
+    padding: 0 0.5rem;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.disc h1{
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif */
+    font-size: 1.5rem;
+}
+
+.disc p{
+    font-size: 1rem;
+}
+
+#projectTitle{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.25rem;
+}
+
+#projectArea{
+    background-color: rgb(222, 255, 244);
+    padding: 0 0.5rem;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.card{
+    margin: 1rem;
+    background: linear-gradient(90.1deg, rgb(175, 237, 255) 10.9%, rgb(255, 163, 252) 63.8%);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.footer{
+    height: 4%;
+    margin-top: 1rem;
+    background-color: gray;
+    /* correct extra bottom white space */
+    margin-bottom: -1rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* for now */
+nav{
+    display: none;
+}
